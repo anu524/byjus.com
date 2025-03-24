@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Header from '../components/Header/Header'
-import Form from '../components/FormSession/FormSession'
+
 import HeroSection from '../components/Hero-Section/HeroSection'
 import Company from '../components/Company-Section/Company'
 import Offer from '../components/Offer/offer'
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <Fragment>
         <Header />
-        <Form />
+        
         <HeroSection />
         <Company />
         <Offer />
