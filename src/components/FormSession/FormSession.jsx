@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { TextField, Button, ToggleButton, ToggleButtonGroup, MenuItem, Box, Typography } from "@mui/material";
 import { useForm, Controller } from "react-hook-form";
 import axios from "axios";
-import './login.css'
 
-const Login = () => {
-  
+const FormSession = () => {
   const { control, handleSubmit, setValue } = useForm();
   const [sessionMode, setSessionMode] = useState("online");
   const [otpSent, setOtpSent] = useState(false);
@@ -34,8 +32,7 @@ const Login = () => {
   };
 
   return (
-    <div className="login_content" style={{background: '#f1cde1'}}>
-    <Box sx={{ maxWidth: 400, margin: "auto", padding: 2, textAlign: "center", boxShadow: 2, borderRadius: 2, background: "white" }}>
+    <Box sx={{ maxWidth: 400, margin: "auto", padding: 2, textAlign: "center", boxShadow: 2, borderRadius: 2 }}>
       <Typography variant="h5" fontWeight="bold">Book Your Free Session</Typography>
       <Typography variant="body2" color="gray">Learn from India's best teachers</Typography>
 
@@ -97,8 +94,7 @@ const Login = () => {
         </Button>
       </form>
     </Box>
-    </div>
   );
 };
 
-export default Login;
+export default FormSession;
