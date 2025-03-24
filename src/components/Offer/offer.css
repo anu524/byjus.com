@@ -1,0 +1,35 @@
+.offer_title img{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(249, 174, 240);
+}
+
+.offer_title {
+    font-size: 1rem;
+    color: #0d0010;
+    font-weight: 500;
+}
+
+.offer_content {
+    padding-left: 20px;
+}
+
+.btn-offer{
+    background: linear-gradient(109, 2deg, rgb(249, 174, 240)
+    65%, rgb(139, 144, 250) 97.1%);
+    color: #520160;
+    font-weight: 620;
+    font-size: 18px;
+    /* word-spacing: 2px; */
+    letter-spacing: 2px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.about_img img{
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    margin-right: 80%;
+    width: 150px;
+}
